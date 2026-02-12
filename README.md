@@ -34,7 +34,7 @@ A terminal invariant set is computed to guarantee recursive feasibility.
 Integration of a state and disturbance estimator to eliminate steady-state tracking error introduced by linearization. Observer gains are tuned via pole placement to balance convergence speed and stability.
 
 <p align="center">
-  <img src="D2.gif" alt="Offset-Free Tracking Demo" width="60%">
+  <img src="D2.gif" alt="Offset-Free Tracking Demo" width="80%">
 </p>
 
 ---
