@@ -5,10 +5,6 @@ Tomas Garate Anderegg · Matas Antanas Jones · Louis Gilles Canoen
 
 This project implements Model Predictive Control (MPC) strategies for a simulated VW ID.3 driving on a highway. The controller handles cruising, lane changes, and overtaking while ensuring passenger comfort and safety.
 
-<p align="center">
-  <img src="images/car_model.png" alt="Car Model" width="50%">
-</p>
-
 ---
 
 ## Deliverables
