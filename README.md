@@ -82,20 +82,12 @@ Extension of the NMPC with an ellipsoidal anti-collision constraint for safe ove
 
 ---
 
-## Project Structure
-```
-├── src/                  # MATLAB source files
-├── media/                # Demo videos/GIFs
-├── images/               # Figures and diagrams
-├── report/               # Project report (PDF)
-└── README.md
-```
-
 ## How to Run
 
 1. Open MATLAB and navigate to the project directory
 2. Run the desired deliverable script (e.g., `deliverable_3.m`)
 3. The simulation will display the car's behavior and plot the results
+4. Gurobi Optimizer was used with an Academic Licence
 
 ## References
 
