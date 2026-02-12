@@ -67,7 +67,7 @@ Robust tube MPC for safe car-following with a lead vehicle. A minimal robust inv
 Nonlinear MPC using RK4 integration instead of linearization, enabling higher precision across the full operating range. No steady-state tracking error.
 
 <p align="center">
-  <img src="D5.gif" alt="NMPC Demo" width="60%">
+  <img src="D4.gif" alt="NMPC Demo" width="60%">
 </p>
 
 ---
@@ -77,7 +77,7 @@ Nonlinear MPC using RK4 integration instead of linearization, enabling higher pr
 Extension of the NMPC with an ellipsoidal anti-collision constraint for safe overtaking maneuvers (semi-major axis a = 15 m, semi-minor axis b = 3 m).
 
 <p align="center">
-  <img src="media/deliverable_6_2.gif" alt="NMPC Overtaking Demo" width="60%">
+  <img src="D5.gif" alt="NMPC Overtaking Demo" width="60%">
 </p>
 
 ---
