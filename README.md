@@ -13,10 +13,6 @@ This project implements Model Predictive Control (MPC) strategies for a simulate
 
 Linearization of the four-state kinematic car model around steady-state conditions. The system is decoupled into **longitudinal** (speed control via throttle) and **lateral** (lane control via steering) subsystems, enabling independent controller design.
 
-<p align="center">
-  <img src="D1.gif" alt="Linearization Demo" width="60%">
-</p>
-
 ---
 
 ### Deliverable 3 — Linear MPC Design
@@ -28,7 +24,7 @@ Design of the linear MPC controller with tuned Q, R matrices and horizon length.
 A terminal invariant set is computed to guarantee recursive feasibility.
 
 <p align="center">
-  <img src="D2.gif" alt="Linear MPC Demo" width="60%">
+  <img src="D1.gif" alt="Linear MPC Demo" width="60%">
 </p>
 
 ---
@@ -38,7 +34,7 @@ A terminal invariant set is computed to guarantee recursive feasibility.
 Integration of a state and disturbance estimator to eliminate steady-state tracking error introduced by linearization. Observer gains are tuned via pole placement to balance convergence speed and stability.
 
 <p align="center">
-  <img src="D3.1.gif" alt="Offset-Free Tracking Demo" width="60%">
+  <img src="D2.gif" alt="Offset-Free Tracking Demo" width="60%">
 </p>
 
 ---
@@ -50,9 +46,19 @@ Robust tube MPC for safe car-following with a lead vehicle. A minimal robust inv
 **Case 1** — Ego car catches up to a slower lead car  
 **Case 2** — Lead car brakes suddenly and re-accelerates
 
-<p align="center">
-  <img src="D4.gif" alt="Robust Tube MPC Demo" width="60%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="D3.1.gif" alt="Case 1" width="90%"><br>
+      <b>Case 1</b>
+    </td>
+    <td align="center">
+      <img src="D3.2.gif" alt="Case 2" width="90%"><br>
+      <b>Case 2</b>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
